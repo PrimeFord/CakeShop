@@ -23,7 +23,7 @@ Clone or download this repository and run with a local server of open `index.htm
 
 ## Demo
 
-[Preview Here]()
+[Preview Here](https://unrivaled-belekoy-b0ff1a.netlify.app/)
 
 ![screenshot](./media/snip.png)
 
