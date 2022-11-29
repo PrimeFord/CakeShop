@@ -370,3 +370,64 @@ body {
   font-size: 1.25rem;
   color: var(--mainBlack);
 }
+@media (max-width: 640px) {
+  :root {
+    font-size: 10px;
+  }
+  .navbar {
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+  }
+  .logo {
+    height: 4rem;
+    width: 4rem;
+  }
+  .wrp1 {
+    height: 100vh;
+    width: 100%;
+  }
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20rem; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .welcome p {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    color: var(--mainWhite);
+  }
+  .welcome span {
+    color: var(--mainPink);
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  .welcome .exp {
+    color: var(--mainBlack);
+    font-size: 1.5rem;
+    border: 3.5px solid var(--mainBlack);
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+  .wrp2 {
+    height: 90vh;
+    width: 100%;
+    background-color: var(--mainWhite);
+    padding: 2.5rem;
+  }
+  .tab {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+  }
+}
