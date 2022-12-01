@@ -392,8 +392,8 @@ body {
   .welcome {
     display: flex;
     flex-direction: column;
-    /* margin-top: 20rem; */
-    justify-content: center;
+    margin-top: 10rem;
+    /* justify-content: center; */
     align-items: center;
     height: 100%;
   }
@@ -424,10 +424,111 @@ body {
     padding: 2.5rem;
   }
   .tab {
-    padding: 3rem 0;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     height: 100%;
+  }
+  .about {
+    height: 100%;
+    padding: 1rem;
+    width: 80%;
+    padding-left: 2rem;
+  }
+  .about p:first-child {
+    font-size: 3rem;
+  }
+  .about span {
+    font-size: 5rem;
+  }
+  .lorem {
+    width: 20rem;
+    color: #6c757d;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+  }
+  .about .exp2 {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.9rem;
+    margin-top: 2rem;
+  }
+  .abtimg {
+    margin-top: 2rem;
+    padding: 2rem;
     position: relative;
+  }
+  .imgcontainer {
+    height: 100%;
+    width: 85%;
+  }
+  .imgcontainer::before {
+    top: -2rem;
+    left: -2.5rem;
+    outline: 0.7rem solid var(--mainYellow);
+  }
+  .wrp3 {
+    height: max-content;
+    width: 100%;
+    background-color: var(--mainGrey);
+  }
+  .box {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+  }
+  .opt {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10rem;
+    justify-content: center;
+  }
+  .opt a {
+    font-size: 1.25em;
+    padding: 0.5rem 0.9rem;
+    margin-top: 1rem;
+    margin: 0 1.5rem;
+  }
+  .opt .exp2 {
+    height: max-content;
+  }
+  .search {
+    height: 3rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0 4rem;
+  }
+  .src {
+    padding: 0.5rem 0.7rem;
+    height: 100%;
+  }
+  .src img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .srt {
+    height: 100%;
+    font-size: 1.25rem;
+    padding: 0 0.6rem;
+  }
+  .line1 {
+    margin-top: 2rem;
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
   }
 }
