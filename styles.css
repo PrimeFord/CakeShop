@@ -401,7 +401,6 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 2.5rem;
-    color: var(--mainWhite);
   }
   .welcome span {
     color: var(--mainPink);
@@ -420,7 +419,6 @@ body {
   .wrp2 {
     height: 90vh;
     width: 100%;
-    background-color: var(--mainWhite);
     padding: 2.5rem;
   }
   .tab {
@@ -443,7 +441,6 @@ body {
   }
   .lorem {
     width: 20rem;
-    color: #6c757d;
     margin: 2rem 0;
     font-size: 1.5rem;
   }
@@ -475,8 +472,6 @@ body {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
-    /* margin-right: auto; */
-    /* margin-left: auto; */
     display: flex;
     flex-direction: column;
     align-items: center;
