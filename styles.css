@@ -543,9 +543,17 @@ body {
     height: auto;
   }
   .mcart {
+    position: absolute;
+    bottom: -4.3rem;
+    right: -3.8rem;
+    background-color: var(--mainYellow);
     height: 4.75rem;
     width: 4.25rem;
     border-top-left-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease-in-out;
   }
   .mcart img {
     width: 1.5rem;
