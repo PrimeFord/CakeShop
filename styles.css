@@ -309,7 +309,7 @@ body {
   gap: 2rem;
 }
 .post {
-  height: 80%;
+  height: 100%;
   width: 19.2rem;
   background-color: var(--mainWhite);
   border: 1px solid #6c757d49;
@@ -532,8 +532,8 @@ body {
     gap: 4rem;
   }
   .post {
-    height: 80%;
-    width: 60%;
+    height: 100%;
+    width: 90%;
     background-color: var(--mainWhite);
     border: 1px solid #6c757d49;
     border-radius: 0.3rem;
