@@ -544,8 +544,8 @@ body {
   }
   .mcart {
     position: absolute;
-    bottom: -4.3rem;
-    right: -3.8rem;
+    bottom: -4.35rem;
+    right: -3.85rem;
     background-color: var(--mainYellow);
     height: 4.75rem;
     width: 4.25rem;
