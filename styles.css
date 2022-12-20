@@ -80,9 +80,22 @@ body {
   margin-right: 0.5rem;
 }
 .menu {
-  height: 4.5rem;
-  width: 4.5rem;
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  top: -1.5rem;
   display: none;
+}
+.menu a {
+  text-decoration: none;
+  width: 100%;
+  /* padding-right: 12rem; */
+  background-color: var(--mainWhite);
+  color: var(--mainPink);
+  font-size: 3rem;
+  /* padding: 2rem 7rem;
+  left: 0;
+  position: relative; */
 }
 .welcome {
   display: flex;
@@ -360,6 +373,7 @@ body {
   scale: 1.25;
   transition: all 1s ease-in-out;
 }
+
 .pp {
   padding: 1rem;
   height: 25%;
