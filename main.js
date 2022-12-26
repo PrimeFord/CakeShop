@@ -63,7 +63,7 @@ cakesInfo = [
     cart: "./media/shopping-cart-2-fill.png",
   },
   {
-    img: "./media/cupcaake3.jpeg",
+    img: "./media/cupctake3.jpeg",
     name: "Cupcake item",
     price: "$ 15",
     category: "cupcake",
