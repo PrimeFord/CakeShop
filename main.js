@@ -97,3 +97,24 @@ for (let i = 0; i < cakesInfo.length; i++) {
   <div class="pp">${cakesInfo[i].name} <span>${cakesInfo[i].price}</span></div>
 </div>`;
 }
+
+const dropIcon = document.querySelector(".dropIcon");
+const drop = document.querySelector(".drop");
+// const show = document.querySelector(".show");
+
+const display = window.getComputedStyle(drop).display;
+// if (display === "none") {
+//   drop.style.display = "block";
+// }
+// if (!display == "none") {
+//   drop.style.display = "none";
+// }
+
+let dis = ["block", "none"];
+
+dropIcon.addEventListener("click", () => {
+  let disR = dis.reverse();
+  for (const d of disR) {
+    drop.style.display = d;
+  }
+});

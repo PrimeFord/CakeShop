@@ -83,19 +83,46 @@ body {
   height: 5rem;
   width: 5rem;
   position: relative;
-  top: -1.5rem;
+  top: 0;
   display: none;
 }
-.menu a {
+.drop li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.drop a,
+.drop li {
   text-decoration: none;
   width: 100%;
   /* padding-right: 12rem; */
   background-color: var(--mainWhite);
   color: var(--mainPink);
-  font-size: 3rem;
-  /* padding: 2rem 7rem;
+  font-size: 2.5rem;
+}
+.drop li img {
+  height: 3rem;
+  width: 3rem;
+}
+.drop {
+  display: none;
+  width: 100%;
+}
+
+/* .menu:hover .drop {
+  display: block;
+  position: absolute;
   left: 0;
-  position: relative; */
+  top: 100%;
+} */
+.drop ul {
+  display: block;
+  width: 100%;
+  background-color: var(--mainWhite);
+}
+.drop ul li {
+  padding: 1rem;
+  list-style: none;
 }
 .welcome {
   display: flex;
