@@ -263,7 +263,7 @@ search.addEventListener("input", () => {
   line.innerHTML = "";
 
   const filter = cakesInfo.filter((filt) =>
-    filt.category.includes(search.value)
+    filt.category.includes(search.value.toLowerCase())
   );
   console.log(filter);
   search.value;
