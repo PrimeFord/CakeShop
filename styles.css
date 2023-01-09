@@ -311,6 +311,7 @@ body {
   margin-top: 1rem;
   text-decoration: none;
   margin: 0 1.5rem;
+  outline: none;
 }
 .opt a:hover {
   background-color: var(--mainBlack);
@@ -344,6 +345,9 @@ body {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
   border: 1px solid var(--mainGrey);
+}
+.srt:focus {
+  outline: 3px solid rgba(0, 102, 255, 0.3);
 }
 .line1 {
   margin-top: 2rem;
